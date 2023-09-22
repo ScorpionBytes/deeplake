@@ -1,4 +1,4 @@
-FROM python:3.6
+FROM python:3.8.18
 ADD ./ /workspace
 WORKDIR /workspace
 RUN pip install -r requirements-dev.txt
